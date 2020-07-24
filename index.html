@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>JavaScriptの書き方</title>
+    </head>
+    <body>
+        <h1 id="title">タイトル１</h1>
+        <p id="element1">要素１</p>
+        <p id="element2">要素２</p>
+        <script>
+            var p = document.createElement("p");
+            var text = document.createTextNode("要素３");
+            document.body.appendChild(p).appendChild(text);
+        </script>
+    </body>
+</html>
